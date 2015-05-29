@@ -11,6 +11,10 @@ class MainActivity : AppCompatActivity() {
             var toolbar = toolbarSupport() {
                 title = "Hello"
                 backgroundColor = R.color.abc_background_cache_hint_selector_material_dark
+<<<<<<< HEAD
+=======
+                navigationIcon = R.drawable.abc_ic_menu_copy_mtrl_am_alpha
+>>>>>>> 8cc7281... Menu icon
             }
             setSupportActionBar(toolbar)
             button("OK?") {
