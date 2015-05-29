@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         verticalLayout {
             var toolbar = toolbarSupport() {
                 title = "Hello"
-                backgroundColor = R.color.material_blue_grey_800
+                backgroundColor = R.color.abc_background_cache_hint_selector_material_dark
             }
             setSupportActionBar(toolbar)
             button("OK?") {
