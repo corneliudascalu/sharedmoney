@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
             setSupportActionBar(toolbar)
             button("OK?") {
                 onClick { toast("Poof!") }
+                onLongClick { toast("Long press") }
             }
         }
     }
