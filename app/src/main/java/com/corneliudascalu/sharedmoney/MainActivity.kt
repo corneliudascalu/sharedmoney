@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
             var toolbar = toolbarSupport() {
                 title = "Hello"
                 backgroundColor = R.color.abc_background_cache_hint_selector_material_dark
-                navigationIcon = R.drawable.notification_template_icon_bg
             }
             setSupportActionBar(toolbar)
             button("OK?") {
