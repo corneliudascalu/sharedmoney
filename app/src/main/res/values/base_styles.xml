@@ -5,17 +5,29 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/red_500</item>
         <item name="colorPrimaryDark">@color/red_700</item>
-        <item name="colorAccent">@color/teal_500</item>
+        <item name="colorAccent">@color/light_blue_600</item>
         <item name="toolbarStyle">@style/ToolbarStyle</item>
+        <item name="android:textColorPrimary">@color/grey_white_1000</item>
+        <item name="android:textColor">@color/grey_600</item>
+        <item name="android:textViewStyle">@style/NormalText</item>
+
     </style>
 
-    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar" >
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
         <item name="android:background">?colorPrimary</item>
     </style>
 
     <style name="ActionBarThemeOverlay" parent="">
-        <item name="android:textColorPrimary">#fff</item>
+        <!--<item name="android:textColorPrimary">#fff</item>-->
         <item name="colorControlNormal">#fff</item>
         <item name="colorControlHighlight">#3fff</item>
+    </style>
+
+    <style name="NormalText">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAccentedTheme">
+        <item name="android:textColor">?colorAccent</item>
     </style>
 </resources>
