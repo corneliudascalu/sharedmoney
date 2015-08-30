@@ -30,4 +30,9 @@
         android:text="Lorem ipsum dolor amet"
         android:layout_margin="8dp" />
 
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"/>
 </LinearLayout>
