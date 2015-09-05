@@ -15,5 +15,6 @@ class MainActivity : AppCompatActivity() {
 
         var user = User("Corneliu", "Dascalu")
         text1.setText(user.toString())
+        text2.setText(Expense().toString())
     }
 }
