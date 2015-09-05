@@ -12,5 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
         testButton.setOnClickListener { toast("Hey!") }
+
+        var user = User("Corneliu", "Dascalu")
+        text1.setText(user.toString())
     }
 }
