@@ -2,14 +2,14 @@ package com.corneliudascalu.sharedmoney
 
 /**
  */
-public class Expense {
-    val loan: Loan = Loan("asd", "asd", 23.6)
+public open class Expense(userId:String, amount:Double) {
 
-    public fun Expense(){
+    public val userId:String?
+    public val amount:Double?
 
+    init {
+        this.userId = userId
+        this.amount = amount
     }
 
-    public override fun toString(): String {
-        return loan.toString()
-    }
 }

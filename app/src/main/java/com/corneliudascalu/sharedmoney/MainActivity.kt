@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         var user = User("Corneliu", "Dascalu")
         text1.setText(user.toString())
-        text2.setText(Expense().toString())
+        val loan = Loan("1","2",24.5)
+        text2.setText(loan.toString())
     }
 }
