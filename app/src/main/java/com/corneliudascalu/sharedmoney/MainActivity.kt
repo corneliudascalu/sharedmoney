@@ -13,9 +13,9 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         testButton.setOnClickListener { toast("Hey!") }
 
-        var user = User("Corneliu", "Dascalu")
-        text1.setText(user.toString())
-        val loan = Loan("1","2",24.5)
-        text2.setText(loan.toString())
+//        var user = User("Corneliu", "Dascalu")
+//        text1.setText(user.toString())
+//        val loan = Loan("1","2",24.5)
+//        text2.setText(loan.toString())
     }
 }

@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 23
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
@@ -24,10 +24,6 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':domain')
-    compile 'com.android.support:appcompat-v7:22.2.1'
-    compile 'com.parse:parse-android:1.10.1'
-    compile 'com.parse.bolts:bolts-android:1.2.1'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
 buildscript {
